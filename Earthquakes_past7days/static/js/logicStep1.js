@@ -38,14 +38,3 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   L.geoJson(data).addTo(map);
 });
 
-
-// L.geoJson(data, {
-//   //We turn each feature into a marker on the map.
-//    onEachFeature: function(feature, layer) {
-//     console.log(layer);
-//     layer.bindPopup("<h2> Airport code:" + feature.properties.faa + "</h2> <hr> <h3> Airport name:" + feature.properties.name  +  ", " + feature.properties.country +"</h3>");
-//     }
-
-// }).addTo(map);
-
-// });
