@@ -184,13 +184,3 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 
 
 
-
-
-When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and all three charts are working according to the requirements when a sample is selected from the dropdown menu.<br />
-
-HTML and Bootstrap to customize the webpage for your dashboard by adding the following:<br />
-- An image was added to the jumbotron.
-- The background color was updated to be compatible to the webpage.
-- A custom color added to contrast the colour of the font.
-
-<br /><br />
