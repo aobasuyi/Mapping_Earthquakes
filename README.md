@@ -2,7 +2,7 @@
 
 ## Overview of the analysis
 
-A non-profit company that provides data driven story telling on disasters around the world will be assisted to build insightful data visualizations with interactive features on earthquakes from around the world.  The website and mobile application development will use the latest earthquake GeoJSON data from the US geological survey websites. The earthquake data will be traversed and retrieved using Javascirpt, D3 and Leaflet libraries and plot the data on a Mapbox map on an API request.<br />
+An insightful data visualizations with interactive features on earthquakes from around the world will be created for a on-profit company that provides data driven story on disasters around the world.  The website and mobile application development will use the latest earthquake GeoJSON data from the US geological survey websites. The earthquake data will be traversed and retrieved using Javascirpt, D3 and Leaflet libraries and data plotted on a Mapbox map on an API request.<br />
 
 The three technical deliverables required to complete Earthquake_Challenge analysis include <br />
 
@@ -16,13 +16,13 @@ The three technical deliverables required to complete Earthquake_Challenge analy
 - Data Tools: JavaScript, JSON, GeoJSON and IO (Web Server)
 - Software: ES6, Javascript;  Visual Studio Code, 1.56
 
-
 ## Results
-### Deliverable 1
- <br />
 
+### Deliverable 1
 #### Add Tectonic Plate Data <br />
 - Using the knowledge of JavaScript, Leaflet.js, and geoJSON data, add tectonic plate data using d3.json(), add the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.
+
+##### Code and Image
 
 ```
 // 1. Add a 2nd layer group for the tectonic plate data.
@@ -57,10 +57,10 @@ L.control.layers(baseMaps, overlays).addTo(map);
 <br /> ![Image](Images/Earthquakes_tectonic_plates.png) <br />
 
 ### Deliverable 2
- <br />
-
 #### Add Major Earthquake Data <br />
 - Using the knowledge of JavaScript, Leaflet.js, and geoJSON data, add major earthquake data to the map using d3.json(), add a color and set the radius of the circle based on the magnitude of earthquake. As well, add a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer, geoJSON().
+
+##### Code and Image
 
 ```
 // 1. Add a 2nd layer group for the tectonic plate data.
@@ -147,11 +147,10 @@ majorEQ.addTo(map);
 <br /> ![Image](Images/Major_earthquakes_data.png) <br />
 
 ### Deliverable 3
- <br />
-
 #### Add an Additional Map <br />
-
 - Using your knowledge of JavaScript and Leaflet.js add a third map style to your earthquake map.
+
+##### Code and Image
 
 ```
 // We create the tile layer that will be the background of our map.
