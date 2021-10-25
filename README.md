@@ -2,7 +2,7 @@
 
 ## Overview of the analysis
 
-An insightful data visualizations with interactive features on earthquakes from around the world will be created for a on-profit company that provides data driven story on disasters around the world.  The website and mobile application development will use the latest earthquake GeoJSON data from the US geological survey websites. The earthquake data will be traversed and retrieved using Javascirpt, D3 and Leaflet libraries and data plotted on a Mapbox map on an API request.<br />
+An insightful data visualizations with interactive features on earthquakes from around the world will be created for a non-profit company that provides data driven story on disasters around the world.  The website and mobile application development will use the latest earthquake GeoJSON data from the US geological survey websites. The earthquake data will be traversed and retrieved using Javascirpt, D3 and Leaflet libraries and data plotted on a Mapbox map on an API request.<br />
 
 The three technical deliverables required to complete Earthquake_Challenge analysis include <br />
 
